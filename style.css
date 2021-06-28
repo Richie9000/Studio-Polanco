@@ -1,0 +1,17 @@
+html {
+  background: url(./img/mobile-back.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 4vh;
+}
+
+.xNav {
+  font-size: 11vw;
+  text-decoration: none;
+  color: antiquewhite;
+}
