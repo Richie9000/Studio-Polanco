@@ -1,4 +1,4 @@
-html {
+.backimg {
   background: url(./img/mobile-back.png) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -11,7 +11,35 @@ body {
 }
 
 .xNav {
-  font-size: 11vw;
+  font-size: 12vw;
   text-decoration: none;
   color: antiquewhite;
+}
+
+.welcome {
+  display: grid;
+  grid-template-rows: 2;
+}
+
+.welcome h1 {
+  font-family: Dosis, sans-serif;
+  color: antiquewhite;
+  font-size: 16vw;
+}
+
+.welcome h2 {
+  font-family: Dosis, sans-serif;
+  color: antiquewhite;
+  font-size: 8vw;
+}
+
+.paragraph {
+  font-family: Dosis, sans-serif;
+  color: antiquewhite;
+  font-size: 8vw;
+}
+
+.program {
+  background-color: darkgrey;
+  height: 100vh;
 }
