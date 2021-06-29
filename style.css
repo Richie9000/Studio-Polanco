@@ -2,12 +2,17 @@
   background: url(./img/Background-img-mobile.png) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
+  padding-bottom: 11vh;
 }
 
 body {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 4vh;
+}
+
+header {
+  margin-bottom: 11vh;
 }
 
 .xNav {
@@ -24,13 +29,15 @@ body {
 .welcome h1 {
   font-family: Dosis, sans-serif;
   color: rgb(223, 36, 15);
-  font-size: 16vw;
+  font-size: 12vw;
+  margin-top: 1px;
 }
 
 .welcome h2 {
   font-family: Dosis, sans-serif;
   color: rgb(223, 36, 15);
-  font-size: 8vw;
+  font-size: 6vw;
+  margin-bottom: 1px;
 }
 
 .paragraph p {
@@ -39,18 +46,22 @@ body {
   font-size: 3vw;
   border: gray 1px solid;
   padding: 5vw;
+  line-height: 5vh;
 }
 
 .paragraph-two {
   position: relative;
+  padding-left: 4vw;
+  margin-bottom: 11vh;
 }
 
-.paragraph-two h6 {
+.paragraph-two h3 {
   font-size: 5vw;
-  color: gray;
+  color: rgb(14, 13, 13, 0.85);
+  margin-top: 1px;
 }
 
-.paragraph-two h5 {
+.paragraph-two h2 {
   position: absolute;
   top: 2vh;
   font-size: 3vw;
@@ -67,8 +78,14 @@ body {
   justify-content: center;
 }
 
-.title-program h3 {
+.title-program h5 {
   color: white;
+  font-size: 3.5vh;
+}
+
+h4 {
+  font-size: 4vh;
+  color: rgb(21, 20, 20);
 }
 
 .about-one {
@@ -90,4 +107,110 @@ body {
   height: 20vh;
   background: grey;
   border-radius: 10px;
+}
+
+.mobile-program {
+  display: flex;
+  height: 15vh;
+  border: rgb(46, 40, 36) solid 1px;
+  margin-right: 5vw;
+  background-color: rgb(46, 46, 46);
+  margin-bottom: 2vh;
+  border-radius: 5px;
+}
+
+.mobile-ul {
+  list-style-type: none;
+}
+
+h6 {
+  color: red;
+  font-size: 3.5vw;
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.paragraph-program {
+  color: antiquewhite;
+  font-size: 2vw;
+  margin-left: 6vw;
+}
+
+.icon-program {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3vw;
+}
+
+.button-program {
+  display: flex;
+  justify-content: center;
+}
+
+.title-models {
+  display: flex;
+  justify-content: center;
+  border-bottom: orangered solid 2px;
+}
+
+.img-models {
+  width: 22vw;
+  border: steelblue 1px solid;
+  border-radius: 5px;
+  height: 15vh;
+  margin: 3vh;
+}
+
+.models-list {
+  list-style-type: none;
+  display: contents;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-more {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-btn {
+  margin-bottom: 5vh;
+  color: white;
+  background-color: red;
+  border-color: red;
+  width: 50vw;
+  height: 10vh;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+.name-model {
+  font-size: 3.2vw;
+  font-weight: 900;
+  margin-bottom: 1px;
+}
+
+.data-model {
+  color: red;
+  font-size: 2.5vw;
+  margin-top: 1px;
+}
+
+.paragraph-model {
+  font-size: 2.2vw;
+}
+
+.button-more button {
+  background-color: white;
+  border: red 1px solid;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  height: 8vh;
+  width: 90vw;
+  font-size: 2.6vw;
 }
