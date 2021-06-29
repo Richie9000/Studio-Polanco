@@ -1,5 +1,5 @@
 .backimg {
-  background: url(./img/mobile-back.png) no-repeat center center fixed;
+  background: url(./img/Background-img-mobile.png) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
 }
@@ -13,7 +13,7 @@ body {
 .xNav {
   font-size: 12vw;
   text-decoration: none;
-  color: antiquewhite;
+  color: rgb(19, 18, 17);
 }
 
 .welcome {
@@ -23,23 +23,71 @@ body {
 
 .welcome h1 {
   font-family: Dosis, sans-serif;
-  color: antiquewhite;
+  color: rgb(223, 36, 15);
   font-size: 16vw;
 }
 
 .welcome h2 {
   font-family: Dosis, sans-serif;
-  color: antiquewhite;
+  color: rgb(223, 36, 15);
   font-size: 8vw;
 }
 
-.paragraph {
+.paragraph p {
   font-family: Dosis, sans-serif;
-  color: antiquewhite;
-  font-size: 8vw;
+  color: darkslategrey;
+  font-size: 3vw;
+  border: gray 1px solid;
+  padding: 5vw;
+}
+
+.paragraph-two {
+  position: relative;
+}
+
+.paragraph-two h6 {
+  font-size: 5vw;
+  color: gray;
+}
+
+.paragraph-two h5 {
+  position: absolute;
+  top: 2vh;
+  font-size: 3vw;
+  color: darkslategrey;
 }
 
 .program {
-  background-color: darkgrey;
-  height: 100vh;
+  background: url(./img/background-program.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.title-program {
+  display: flex;
+  justify-content: center;
+}
+
+.title-program h3 {
+  color: white;
+}
+
+.about-one {
+  border: darkmagenta solid 2px;
+}
+
+.about-two {
+  border: darkmagenta solid 2px;
+}
+
+.about-img {
+  width: 85vw;
+  border: steelblue 1px solid;
+  border-radius: 5px;
+  height: 25vh;
+}
+
+.about-four {
+  height: 20vh;
+  background: grey;
+  border-radius: 10px;
 }
