@@ -63,7 +63,7 @@ header {
 
 .paragraph-two h2 {
   position: absolute;
-  top: 2vh;
+  top: 3vh;
   font-size: 3vw;
   color: darkslategrey;
 }
@@ -78,9 +78,22 @@ header {
   justify-content: center;
 }
 
-.title-program h5 {
+h5 {
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 3.5vh;
+  position: relative;
+  margin-bottom: 2px;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 2px;
+  color: red;
+  width: 8vw;
 }
 
 h4 {
@@ -152,7 +165,7 @@ h6 {
 .title-models {
   display: flex;
   justify-content: center;
-  border-bottom: orangered solid 2px;
+  height: 10vh;
 }
 
 .img-models {
@@ -171,6 +184,7 @@ h6 {
 .container-img {
   display: flex;
   flex-direction: row;
+  margin-top: 6vh;
 }
 
 .button-more {
