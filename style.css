@@ -394,13 +394,14 @@ nav {
   nav {
     display: flex;
     border-bottom: red solid 1px;
-    height: 26vh;
+    height: 13vh;
   }
 
   nav ul {
     display: flex;
     list-style-type: none;
     margin-left: 20vw;
+    margin-top: -7vh;
   }
 
   nav ul li {
@@ -421,7 +422,7 @@ nav {
   }
 
   .image-nav img {
-    margin-top: 10vh;
+    margin-top: 2vh;
   }
 
   .paragraph p {
@@ -549,7 +550,7 @@ nav {
     border: black solid 1px;
     background-color: black;
     grid-template-columns: repeat(5, 7vw);
-    height: 7vh;
+    height: 5vh;
     width: 120%;
     margin-left: -5vw;
     margin-top: -4vh;
