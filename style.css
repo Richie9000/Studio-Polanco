@@ -5,6 +5,12 @@
   padding-bottom: 11vh;
 }
 
+.backimg-about {
+  background: url(./img/about-background.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
 body {
   margin-left: 5vw;
   margin-right: 5vw;
@@ -26,18 +32,39 @@ header {
   grid-template-rows: 2;
 }
 
-.welcome h1 {
+h1 {
   font-family: Dosis, sans-serif;
   color: rgb(223, 36, 15);
   font-size: 12vw;
   margin-top: 1px;
 }
 
-.welcome h2 {
+h2 {
   font-family: Dosis, sans-serif;
   color: rgb(223, 36, 15);
   font-size: 6vw;
   margin-bottom: 1px;
+}
+
+.title-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-about h1 {
+  font-family: Dosis, sans-serif;
+  color: rgb(223, 36, 15);
+  font-size: 12vw;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.title-about h2 {
+  font-family: Dosis, sans-serif;
+  color: rgb(223, 36, 15);
+  font-size: 6vw;
+  margin-bottom: 1px;
+  text-align: center;
 }
 
 .paragraph p {
@@ -82,9 +109,10 @@ h5 {
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 3.5vh;
+  font-size: 3vh;
   position: relative;
   margin-bottom: 2px;
+  padding-top: 2vh;
 }
 
 hr {
@@ -97,16 +125,19 @@ hr {
 }
 
 h4 {
-  font-size: 4vh;
-  color: rgb(21, 20, 20);
+  font-size: 3vh;
+  color: rgb(36, 35, 35);
+  text-align: center;
+  margin-bottom: 1px;
 }
 
 .about-one {
-  border: darkmagenta solid 2px;
+  margin-top: 1vh;
 }
 
 .about-two {
-  border: darkmagenta solid 2px;
+  margin-top: 15vh;
+  border-bottom: rgba(221, 11, 11, 0.65) solid 1px;
 }
 
 .about-img {
@@ -116,10 +147,20 @@ h4 {
   height: 25vh;
 }
 
+.about-img-logo {
+  width: 53vw;
+  border: red 1px solid;
+  border-radius: 2px;
+  height: 25vh;
+  margin-left: 20vw;
+  margin-bottom: 5vh;
+}
+
 .about-four {
-  height: 20vh;
-  background: grey;
-  border-radius: 10px;
+  height: 25vh;
+  background: rgb(29, 28, 28);
+  margin-left: -5vw;
+  margin-right: -5vw;
 }
 
 .mobile-program {
@@ -162,6 +203,15 @@ h6 {
   justify-content: center;
 }
 
+.logo-paragraph {
+  font-size: 3vw;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
 .title-models {
   display: flex;
   justify-content: center;
@@ -185,6 +235,32 @@ h6 {
   display: flex;
   flex-direction: row;
   margin-top: 6vh;
+}
+
+.container-text {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 3vh;
+  margin-left: 3vw;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.centered1 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
 }
 
 .button-more {
@@ -215,8 +291,44 @@ h6 {
   margin-top: 1px;
 }
 
+.info-models {
+  margin-top: 3vh;
+}
+
 .paragraph-model {
   font-size: 2.2vw;
+}
+
+.paragraph-about {
+  background-color: antiquewhite;
+  border: burlywood solid 1px;
+  font-size: 2.5vw;
+  line-height: 4vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-weight: normal;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  text-align: center;
+}
+
+.paragraph-contact {
+  font-size: 2.5vw;
+  line-height: 4vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-size: 2.5vw;
+  margin-bottom: 5vh;
 }
 
 .button-more button {
@@ -227,4 +339,201 @@ h6 {
   height: 8vh;
   width: 90vw;
   font-size: 2.6vw;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.img-logos {
+  height: 4vh;
+  width: 28vw;
+  padding: 1vw;
+}
+
+footer {
+  display: flex;
+}
+
+.paragraph-footer {
+  margin-top: 5vh;
+}
+
+.image-footer img {
+  margin-top: 2vh;
+}
+
+.link-program {
+  display: none;
+}
+
+.desktop-logo {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .xNav {
+    display: none;
+  }
+
+  .backimg {
+    height: 215vh;
+  }
+
+  nav {
+    display: flex;
+    border-bottom: red solid 1px;
+    height: 26vh;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 20vw;
+  }
+
+  nav ul li {
+    margin-top: 11vh;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    font-family: sans-serif;
+    font-size: 2vw;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  header {
+    background-color: white;
+  }
+
+  .image-nav img {
+    margin-top: 10vh;
+  }
+
+  .paragraph p {
+    margin-bottom: -5vh;
+    margin-top: 1px;
+    line-height: 10vh;
+    font-size: 2vw;
+    padding-right: 33vw;
+    border: none;
+  }
+
+  .paragraph-two {
+    margin-bottom: 27vh;
+  }
+
+  .paragraph-two h3 {
+    font-size: 3vw;
+  }
+
+  .title-program h5 {
+    font-size: 3vw;
+  }
+
+  .mobile-ul {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    width: max-content;
+    margin-top: 15vh;
+  }
+
+  .paragraph-program {
+    padding-right: 2vw;
+    margin-left: 3vw;
+    margin-top: 1px;
+    font-size: 1vw;
+  }
+
+  .mobile-program {
+    display: grid;
+    margin-right: 1vw;
+    height: 50vh;
+    width: 16vw;
+  }
+
+  .mobile-program h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-bottom: 1px;
+    margin-top: 1px;
+  }
+
+  .button-program {
+    display: none;
+  }
+
+  .link-program {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-program a {
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 6vh;
+    margin-top: 10vh;
+  }
+
+  .icon-program {
+    margin-bottom: -5vh;
+  }
+
+  .img-models {
+    height: 25vh;
+  }
+
+  .models-list {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .name-model {
+    font-size: 4vh;
+    margin-top: 1px;
+  }
+
+  .data-model {
+    font-size: 2.5vh;
+  }
+
+  .paragraph-model {
+    font-size: 2.2vh;
+  }
+
+  .button-more {
+    display: none;
+  }
+
+  .desktop-logo {
+    display: block;
+    height: 25vh;
+    background: rgb(29, 28, 28);
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+  }
+
+  .img-logos {
+    margin-left: -5vw;
+  }
+
+  .icon-program {
+    max-width: 40%;
+    max-height: 45%;
+    margin-left: 2vw;
+  }
 }
