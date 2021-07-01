@@ -6,9 +6,9 @@
 }
 
 .backimg-about {
-  background: url(./img/about-background.png) no-repeat center center fixed;
+  background: url(./img/about-desktop-back.png) no-repeat center center fixed;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
 }
 
 body {
@@ -125,6 +125,7 @@ hr {
 }
 
 h4 {
+  font-family: lato, sans-serif;
   font-size: 3vh;
   color: rgb(36, 35, 35);
   text-align: center;
@@ -204,6 +205,7 @@ h6 {
 }
 
 .logo-paragraph {
+  font-family: lato, sans-serif;
   font-size: 3vw;
   text-align: center;
   margin-left: 5vw;
@@ -300,6 +302,7 @@ h6 {
 }
 
 .paragraph-about {
+  font-family: lato, sans-serif;
   background-color: antiquewhite;
   border: burlywood solid 1px;
   font-size: 2.5vw;
@@ -313,6 +316,7 @@ h6 {
 }
 
 .paragraph-contact {
+  font-family: lato, sans-serif;
   font-size: 2.5vw;
   line-height: 4vh;
   margin-left: 5vh;
@@ -324,6 +328,7 @@ h6 {
 
 .email {
   display: flex;
+  font-family: lato, sans-serif;
   justify-content: center;
   color: black;
   font-weight: bold;
@@ -400,16 +405,16 @@ nav {
   nav ul {
     display: flex;
     list-style-type: none;
-    margin-left: 20vw;
+    margin-left: 27vw;
     margin-top: -7vh;
   }
 
   nav ul li {
-    margin-top: 11vh;
+    margin-top: 110px;
     margin-right: 6vw;
     margin-left: 6vw;
-    font-family: sans-serif;
-    font-size: 2vw;
+    font-family: lato, sans-serif;
+    font-size: 1.5vw;
   }
 
   nav ul li a {
@@ -572,5 +577,93 @@ nav {
     max-width: 3vw;
     margin-left: 1.5vw;
     margin-top: -1vh;
+  }
+
+  .title-about h1 {
+    font-family: Dosis, sans-serif;
+    color: rgb(223, 36, 15);
+    font-size: 6vw;
+    margin-top: 1px;
+  }
+
+  .paragraph-about {
+    background-color: white;
+    font-family: lato, sans-serif;
+    font-size: 1.7vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .paragraph-contact {
+    font-family: lato, sans-serif;
+    font-size: 1.5vw;
+    margin-top: 80px;
+  }
+
+  .email {
+    font-family: lato, sans-serif;
+    font-size: 1.7vw;
+  }
+
+  .about-two {
+    margin-top: 35vh;
+  }
+
+  .about-img-logo {
+    width: 30vw;
+    margin-left: 30vw;
+  }
+
+  .logo-paragraph {
+    font-size: 1.5vw;
+    font-family: lato, sans-serif;
+    margin-bottom: 10vh;
+  }
+
+  h4 {
+    margin-top: 80px;
+    font-family: lato, sans-serif;
+  }
+
+  .title-about-two {
+    margin-bottom: 5vh;
+  }
+
+  .about-images {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+
+  .centered {
+    font-size: 4vh;
+  }
+
+  .centered1 {
+    font-size: 2vh;
+  }
+
+  .about-four {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    height: 17vh;
+    background: rgb(29, 28, 28);
+    margin-left: -5vw;
+    margin-right: -5vw;
+  }
+
+  .paragraph-footer {
+    font-family: lato, sans-serif;
+    color: white;
+  }
+
+  .image-footer {
+    margin-top: 2vh;
+    padding-left: 22vw;
+    padding-right: 5vw;
   }
 }
