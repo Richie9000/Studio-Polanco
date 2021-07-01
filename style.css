@@ -375,6 +375,13 @@ footer {
   display: none;
 }
 
+nav {
+  display: none;
+}
+
+.topbar {
+  display: none;
+}
 @media only screen and (min-width: 768px) {
   .xNav {
     display: none;
@@ -535,5 +542,34 @@ footer {
     max-width: 40%;
     max-height: 45%;
     margin-left: 2vw;
+  }
+
+  .topbar {
+    display: grid;
+    border: black solid 1px;
+    background-color: black;
+    grid-template-columns: repeat(5, 7vw);
+    height: 7vh;
+    width: 120%;
+    margin-left: -5vw;
+    margin-top: -4vh;
+  }
+
+  .topbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 67vw;
+  }
+
+  .topbar ul li {
+    list-style-type: none;
+    color: white;
+    margin-left: 2vw;
+  }
+
+  .topbar-icon {
+    max-width: 3vw;
+    margin-left: 1.5vw;
+    margin-top: -1vh;
   }
 }
