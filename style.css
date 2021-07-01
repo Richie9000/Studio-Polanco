@@ -21,6 +21,35 @@ header {
   margin-bottom: 11vh;
 }
 
+.overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: url(./img/Background-img-mobile.png) no-repeat fixed;
+}
+
+.overlay a {
+  text-decoration: none;
+  font-family: lato, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: red;
+  display: block;
+  transition: 0.3s;
+  margin-left: 3vw;
+  margin-top: 2vh;
+}
+
+.closebtn {
+  margin-left: 80vw;
+}
+
 .xNav {
   font-size: 12vw;
   text-decoration: none;
@@ -657,7 +686,9 @@ nav {
 
   .about-images {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 40% 40%;
+    margin-bottom: 10vh;
+    margin-left: 11vw;
   }
 
   .centered {
@@ -719,5 +750,18 @@ nav {
     color: rgb(223, 36, 15);
     font-size: 6vw;
     margin-top: 25px;
+  }
+
+  .footer-about {
+    background-color: rgb(36, 35, 35);
+  }
+
+  .about-img {
+    height: 30vh;
+  }
+
+  .paragraph-model-about {
+    color: white;
+    font-size: 2vh;
   }
 }
