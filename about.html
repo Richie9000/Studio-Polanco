@@ -11,9 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Estudio Polanco</title>
   </head>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <div class="overlay-content">
+      <a href="#work" id="mybtn">Program</a>
+      <a href="#about">About</a>
+      <a href="#contact">Gallery</a>
+    </div>
+  </div>
   <div class="topbar">
     <ul>
       <li>
@@ -33,7 +41,7 @@
   </div>
   <div class="backimg-about">
     <header>
-      <a href="#" class="xNav">☰</a>
+      <a href="#" id="Hamb" class="xNav">☰</a>
       <nav>
         <div class="image-nav">
           <img src="./img/logo-footer.png" alt="Image Logo" />
