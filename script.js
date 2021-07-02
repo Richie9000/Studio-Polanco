@@ -3,14 +3,14 @@ const hamb = document.getElementById('Hamb');
 const closeNav = document.getElementsByClassName('closebtn')[0];
 
 hamb.onclick = function () {
-    overlay.style.display = 'block';
-  }
-  
+  overlay.style.display = 'block';
+};
+
 // When the user clicks on <span> (x), close the modal
 closeNav.onclick = function () {
   overlay.style.display = 'none';
-  }
-  
+};
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
   if (event.target === overlay) {
@@ -18,7 +18,7 @@ window.onclick = function (event) {
   }
 };
 
-  // models section
+// models section
 const models = [
   {
     name: 'Alondra Benkler',
@@ -56,7 +56,7 @@ const models = [
     biography: 'The highest-earning models according to Forbes, Sophie was the first Victoria Secret model from Australia. Known for her attractive physique.',
     photo: './img/model6.jpg',
   },
-]; 
+];
 
 const ulContainer = document.querySelector('.models-list');
 
@@ -86,4 +86,4 @@ for (let i = 0; i < models.length; i += 1) {
   pBio.innerHTML = models[i].biography;
   pBio.className = 'paragraph-model';
   divInfo.appendChild(pBio);
-} 
+}
