@@ -151,7 +151,7 @@ h2 {
   color: rgb(21, 35, 35);
 }
 
-.paragraph-model-about .program {
+.program {
   background: url(./img/background-program.jpg) no-repeat center center fixed;
   background-size: cover;
 }
@@ -184,7 +184,7 @@ hr {
 
 h4 {
   font-family: lato, sans-serif;
-  padding-top: 9vh;
+  padding-top: 1vh;
   padding-right: 9vw;
   padding-left: 9vw;
   font-size: 3vh;
@@ -754,10 +754,10 @@ nav {
   }
 
   h4 {
-    margin-top: 60px;
+    margin-top: 6vh;
     font-family: lato, sans-serif;
     font-size: 3vh;
-    font-weight: lighter;
+    font-weight: bold;
     color: black;
   }
 
@@ -849,7 +849,7 @@ nav {
     font-size: 2vw;
     font-size: 4vw;
     margin-bottom: 1px;
-    font-weight: lighter;
+    font-weight: bold;
   }
 
   h1 {
@@ -876,11 +876,6 @@ nav {
   .container-img a {
     margin-top: -9px;
     margin-left: -9px;
-  }
-
-  h5 {
-    font-size: 2.8vh;
-    font-weight: lighter;
   }
 
   .welcome {
