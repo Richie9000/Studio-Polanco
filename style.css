@@ -209,6 +209,7 @@ h4 {
   border-radius: 5px;
   height: 25vh;
   margin-left: 7vw;
+  background-image: url(./img/about-img3.png);
 }
 
 .about-img-logo {
@@ -846,6 +847,7 @@ nav {
   }
 
   .about-img {
+    background-image: url(./img/about-img2.png);
     height: 30vh;
   }
 
@@ -889,6 +891,18 @@ nav {
   }
 
   #info {
+    font-family: lato, sans-serif;
+    font-size: 1.5vw;
+  }
+
+  #date1 {
+    font-family: lato, sans-serif;
+    margin-top: 7vh;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+
+  #info1 {
     font-family: lato, sans-serif;
     font-size: 1.5vw;
   }
