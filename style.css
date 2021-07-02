@@ -67,7 +67,6 @@ header {
 
 .welcome {
   display: grid;
-  grid-template-rows: 2;
 }
 
 h1 {
@@ -110,7 +109,8 @@ h2 {
 }
 
 .title-about-two {
-  margin-top: -4vh;
+  margin-top: 2vh;
+  margin-left: 20px;
 }
 
 .paragraph p {
@@ -269,10 +269,6 @@ h6 {
 .paragraph-model-about {
   display: flex;
   margin-top: 1px;
-}
-.title-about-two {
-  margin-top: 2vh;
-  margin-left: 20px;
 }
 
 .icon-program {
@@ -477,12 +473,6 @@ nav {
     display: none;
   }
 
-  .backimg {
-    height: 150vh;
-    margin-left: -7vh;
-    margin-right: -7vh;
-  }
-
   nav {
     display: flex;
     border-bottom: red solid 1px;
@@ -525,7 +515,6 @@ nav {
     margin-top: 1px;
     line-height: 4vh;
     font-size: 1.5vw;
-    border: none;
     padding-left: 1vw;
     border: white solid 5px;
     padding-top: 2vh;
@@ -609,6 +598,9 @@ nav {
 
   .icon-program {
     margin-bottom: -5vh;
+    max-width: 40%;
+    max-height: 45%;
+    margin-left: 3.1vw;
   }
 
   .img-models {
@@ -617,7 +609,6 @@ nav {
   }
 
   .models-list {
-    display: grid;
     display: grid;
     grid-template-columns: repeat(2, 50%);
   }
@@ -662,12 +653,6 @@ nav {
     margin-left: -5vw;
   }
 
-  .icon-program {
-    max-width: 40%;
-    max-height: 45%;
-    margin-left: 3.1vw;
-  }
-
   .topbar {
     display: grid;
     border: black solid 1px;
@@ -696,6 +681,13 @@ nav {
     max-width: 3vw;
     margin-left: 1.5vw;
     margin-top: -1vh;
+  }
+
+  h1 {
+    font-family: Cocogoose, sans-serif;
+    color: #ec5242;
+    font-size: 6vw;
+    margin-top: 25px;
   }
 
   .title-about h1 {
@@ -727,10 +719,6 @@ nav {
   .email {
     font-family: lato, sans-serif;
     font-size: 1.7vw;
-  }
-
-  .about-two {
-    margin-top: -15vhvh;
   }
 
   .about-img-logo {
@@ -850,13 +838,6 @@ nav {
     font-size: 4vw;
     margin-bottom: 1px;
     font-weight: bold;
-  }
-
-  h1 {
-    font-family: Cocogoose, sans-serif;
-    color: #ec5242;
-    font-size: 6vw;
-    margin-top: 25px;
   }
 
   .footer-about {
