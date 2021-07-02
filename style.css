@@ -62,7 +62,7 @@ header {
 }
 
 h1 {
-  font-family: lato, sans-serif;
+  font-family: Cocogoose, sans-serif;
   color: rgb(223, 36, 15);
   font-size: 12vw;
   margin-top: 1px;
@@ -121,8 +121,8 @@ h2 {
 .paragraph-two h2 {
   position: absolute;
   top: 3vh;
-  font-size: 3vw;
-  color: darkslategrey;
+  font-size: 2vw;
+  color: rgb(21, 35, 35);
 }
 
 .program {
@@ -255,8 +255,7 @@ h6 {
 
 .img-models {
   width: 22vw;
-  border: steelblue 1px solid;
-  border-radius: 5px;
+  border-radius: 2px;
   height: 15vh;
   margin: 3vh;
 }
@@ -267,9 +266,12 @@ h6 {
 }
 
 .container-img {
+  background-image: url(./img/chess.png);
+  background-repeat: no-repeat;
+  position: relative;
   display: flex;
   flex-direction: row;
-  margin-top: 6vh;
+  margin-top: 1vh;
 }
 
 .container-text {
@@ -430,6 +432,7 @@ nav {
   .backimg {
     height: 150vh;
     margin-left: -7vh;
+    margin-right: -7vh;
   }
 
   nav {
@@ -487,6 +490,7 @@ nav {
     font-family: loto, sans-serif;
     margin-bottom: 27vh;
     padding-left: 1px;
+    margin-left: 7vw;
   }
 
   .paragraph-two h3 {
@@ -502,7 +506,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 7vw;
+    width: 90vw;
   }
 
   .paragraph-program {
@@ -515,8 +520,9 @@ nav {
   .mobile-program {
     display: grid;
     margin-right: 1vw;
-    height: 35vh;
-    width: 16vw;
+    height: 30vh;
+    width: 17.1vw;
+    background-color: rgba(59, 62, 69, 0.7);
   }
 
   .mobile-program h6 {
@@ -549,7 +555,8 @@ nav {
   }
 
   .img-models {
-    height: 25vh;
+    height: 15vh;
+    width: 12vw;
   }
 
   .models-list {
@@ -561,17 +568,20 @@ nav {
   .name-model {
     font-family: lato, sans-serif;
     font-size: 2.5vh;
-    margin-top: 1px;
+    margin-top: -9px;
   }
 
   .data-model {
     font-family: lato, sans-serif;
-    font-size: 2.5vh;
+    font-size: 1.7vh;
+    font-style: italic;
   }
 
   .paragraph-model {
     font-family: lato, sans-serif;
-    font-size: 2.2vh;
+    font-size: 1.6vh;
+    margin-right: 20px;
+    line-height: 25px;
   }
 
   .button-more {
@@ -598,7 +608,7 @@ nav {
   .icon-program {
     max-width: 40%;
     max-height: 45%;
-    margin-left: 2vw;
+    margin-left: 3.1vw;
   }
 
   .topbar {
@@ -677,7 +687,9 @@ nav {
   h4 {
     margin-top: 60px;
     font-family: lato, sans-serif;
-    font-size: 4vh;
+    font-size: 3vh;
+    font-weight: lighter;
+    color: black;
   }
 
   .title-about-two {
@@ -724,6 +736,7 @@ nav {
 
   hr {
     margin-top: 10px;
+    width: 3vw;
   }
 
   .title-models {
@@ -739,15 +752,15 @@ nav {
 
   h2 {
     font-family: lato, sans-serif;
-    color: rgb(223, 36, 15);
+    font-size: 2vw;
     font-size: 4vw;
     margin-bottom: 1px;
     font-weight: lighter;
   }
 
   h1 {
-    font-family: lato, sans-serif;
-    color: rgb(223, 36, 15);
+    font-family: Cocogoose, sans-serif;
+    color: #ec5242;
     font-size: 6vw;
     margin-top: 25px;
   }
@@ -763,5 +776,23 @@ nav {
   .paragraph-model-about {
     color: white;
     font-size: 2vh;
+  }
+
+  .container-img a {
+    margin-top: -9px;
+    margin-left: -9px;
+  }
+
+  h5 {
+    font-size: 2.8vh;
+    font-weight: lighter;
+  }
+
+  .welcome {
+    margin-left: 7vw;
+  }
+
+  .paragraph {
+    margin-left: 7vw;
   }
 }
