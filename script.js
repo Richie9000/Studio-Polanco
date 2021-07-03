@@ -65,6 +65,9 @@ function rev() {
     const liCard = document.createElement('li');
     liCard.className = 'container-img';
     ulContainer.appendChild(liCard);
+    if (i > 1) {
+      liCard.className = 'hidden-model';
+    }
     const aLink = document.createElement('a');
     aLink.href = '#';
     liCard.appendChild(aLink);
@@ -90,3 +93,5 @@ function rev() {
   }
 }
 rev();
+
+

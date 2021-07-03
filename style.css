@@ -277,7 +277,7 @@ h6 {
 }
 
 .icon-program {
-  max-width: 100%;
+  max-width: 70%;
   max-height: 100%;
   padding: 3vw;
 }
@@ -309,7 +309,7 @@ h6 {
 .img-models {
   width: 22vw;
   border-radius: 2px;
-  height: 15vh;
+  height: 12vh;
   margin: 3vh;
 }
 
@@ -325,6 +325,10 @@ h6 {
   display: flex;
   flex-direction: row;
   margin-top: 1vh;
+}
+
+.hidden-model {
+  display: none;
 }
 
 .container-text {
@@ -368,6 +372,12 @@ h6 {
   height: 10vh;
   font-size: 3vw;
   cursor: pointer;
+}
+
+#btn {
+  justify-content: center;
+  cursor: pointer;
+  border-color: red solid 2px;
 }
 
 .name-model {
@@ -414,6 +424,16 @@ h6 {
   padding-left: 3vh;
   padding-right: 3vh;
   text-align: center;
+}
+
+.para-foo {
+  font-family: loto, sans-serif;
+  margin-top: 2vh;
+  font-size: 12px;
+}
+
+.paragraph-footer {
+  margin-top: 3vh;
 }
 
 .email {
@@ -518,6 +538,7 @@ nav {
 
   .paragraph p {
     font-family: lato, sans-serif;
+    color: #272a31;
     margin-top: 1px;
     line-height: 4vh;
     font-size: 1.5vw;
@@ -525,7 +546,7 @@ nav {
     border: white solid 5px;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: #f7f7f7;
+    background-color: #d3d3d3;
     margin-right: 30vw;
     margin-bottom: 8vh;
   }
@@ -646,7 +667,7 @@ nav {
   .desktop-logo {
     display: block;
     height: 25vh;
-    background: rgb(29, 28, 28);
+    background-color: #272a31;
     margin-left: -5vw;
     margin-right: -5vw;
   }
@@ -656,10 +677,13 @@ nav {
     grid-template-columns: repeat(5, 4%);
     width: 98vw;
     margin-top: 1.5vh;
+    height: 10vh;
   }
 
   .img-logos {
     margin-left: -5vw;
+    height: 6vh;
+    margin-top: 2vh;
   }
 
   .topbar {
@@ -814,6 +838,13 @@ nav {
   .paragraph-footer {
     font-family: lato, sans-serif;
     color: black;
+    margin: 5vh;
+  }
+
+  .para-foo {
+    font-family: loto, sans-serif;
+    margin-top: 2vh;
+    font-size: 2vh;
   }
 
   .image-footer {
@@ -862,7 +893,7 @@ nav {
   .paragraph-model-about {
     color: white;
     font-size: 2vh;
-    margin-top: 7vh;
+    margin-top: 3vh;
   }
 
   .container-img a {
