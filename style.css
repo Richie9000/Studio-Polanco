@@ -502,21 +502,20 @@ nav {
     display: flex;
     border-bottom: red solid 1px;
     height: 12vh;
-    width: 100vw;
+    width: 110%;
     margin-left: -6vw;
   }
 
   nav ul {
     display: flex;
     list-style-type: none;
-    margin-top: -7vh;
-    margin-left: 30vw;
+    padding-left: 23vw;
   }
 
   nav ul li {
-    margin-top: 110px;
     font-family: lato, sans-serif;
     font-size: 1.5vw;
+    padding-top: 2vh;
   }
 
   nav ul li a {
@@ -530,8 +529,11 @@ nav {
     background-color: white;
   }
 
+  .image-nav {
+    display: flex;
+  }
+
   .image-nav img {
-    margin-top: 2vh;
     padding-left: 86px;
   }
 
@@ -666,7 +668,7 @@ nav {
   .desktop-logo {
     display: block;
     height: 25vh;
-    background-color: #272a31;
+    background-color: #414246;
     margin-left: -5vw;
     margin-right: -5vw;
   }
@@ -686,11 +688,10 @@ nav {
   }
 
   .topbar {
-    display: grid;
+    display: flex;
     border: black solid 1px;
     background-color: black;
-    grid-template-columns: repeat(5, 7vw);
-    height: 6vh;
+    height: 7.5vh;
     width: 110%;
     margin-left: -5vw;
     margin-top: -4vh;
@@ -699,10 +700,11 @@ nav {
   .topbar ul {
     display: flex;
     justify-content: space-between;
-    padding-left: 67vw;
+    padding-left: 59vw;
   }
 
   .topbar ul li {
+    display: flex;
     font-family: loto, sans-serif;
     list-style-type: none;
     color: white;
@@ -952,5 +954,10 @@ nav {
 
   .one {
     margin-left: 12.5vw;
+  }
+
+  .top-img {
+    display: flex;
+    padding-bottom: 1vh;
   }
 }
