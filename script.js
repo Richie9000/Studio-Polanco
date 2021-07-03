@@ -60,33 +60,33 @@ const models = [
 
 const ulContainer = document.querySelector('.models-list');
 
-function rev () {
-for (let i = 0; i < models.length; i += 1) {
-  const liCard = document.createElement('li');
-  liCard.className = 'container-img';
-  ulContainer.appendChild(liCard);
-  const aLink = document.createElement('a');
-  aLink.href = '#';
-  liCard.appendChild(aLink);
-  const imgLi = document.createElement('img');
-  imgLi.className = 'img-models';
-  imgLi.src = models[i].photo;
-  aLink.appendChild(imgLi);
-  const divInfo = document.createElement('div');
-  divInfo.className = 'info-models';
-  liCard.appendChild(divInfo);
-  const pName = document.createElement('p');
-  pName.innerHTML = models[i].name;
-  pName.className = 'name-model';
-  divInfo.appendChild(pName);
-  const pData = document.createElement('p');
-  pData.innerHTML = models[i].data;
-  pData.className = 'data-model';
-  divInfo.appendChild(pData);
-  const pBio = document.createElement('p');
-  pBio.innerHTML = models[i].biography;
-  pBio.className = 'paragraph-model';
-  divInfo.appendChild(pBio);
-}
+function rev() {
+  for (let i = 0; i < models.length; i += 1) {
+    const liCard = document.createElement('li');
+    liCard.className = 'container-img';
+    ulContainer.appendChild(liCard);
+    const aLink = document.createElement('a');
+    aLink.href = '#';
+    liCard.appendChild(aLink);
+    const imgLi = document.createElement('img');
+    imgLi.className = 'img-models';
+    imgLi.src = models[i].photo;
+    aLink.appendChild(imgLi);
+    const divInfo = document.createElement('div');
+    divInfo.className = 'info-models';
+    liCard.appendChild(divInfo);
+    const pName = document.createElement('p');
+    pName.innerHTML = models[i].name;
+    pName.className = 'name-model';
+    divInfo.appendChild(pName);
+    const pData = document.createElement('p');
+    pData.innerHTML = models[i].data;
+    pData.className = 'data-model';
+    divInfo.appendChild(pData);
+    const pBio = document.createElement('p');
+    pBio.innerHTML = models[i].biography;
+    pBio.className = 'paragraph-model';
+    divInfo.appendChild(pBio); 
+  }
 }
 rev();
