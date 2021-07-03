@@ -86,7 +86,7 @@ function rev() {
     const pBio = document.createElement('p');
     pBio.innerHTML = models[i].biography;
     pBio.className = 'paragraph-model';
-    divInfo.appendChild(pBio); 
+    divInfo.appendChild(pBio);
   }
 }
 rev();
