@@ -60,6 +60,7 @@ const models = [
 
 const ulContainer = document.querySelector('.models-list');
 
+function rev () {
 for (let i = 0; i < models.length; i += 1) {
   const liCard = document.createElement('li');
   liCard.className = 'container-img';
@@ -87,3 +88,5 @@ for (let i = 0; i < models.length; i += 1) {
   pBio.className = 'paragraph-model';
   divInfo.appendChild(pBio);
 }
+}
+rev();

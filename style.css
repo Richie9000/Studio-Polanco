@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 .backimg {
   background: url(./img/Background-img-mobile.png) no-repeat center center fixed;
   background-size: cover;
@@ -486,21 +490,21 @@ nav {
   nav ul {
     display: flex;
     list-style-type: none;
-    margin-left: 27vw;
     margin-top: -7vh;
+    margin-left: 30vw;
   }
 
   nav ul li {
     margin-top: 110px;
-    margin-right: 6vw;
-    margin-left: 6vw;
     font-family: lato, sans-serif;
     font-size: 1.5vw;
   }
 
   nav ul li a {
+    font-family: lato, sans-serif;
     text-decoration: none;
     color: black;
+    padding-right: 5.7vw;
   }
 
   header {
@@ -521,7 +525,7 @@ nav {
     border: white solid 5px;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: rgb(230, 250, 250);
+    background-color: #f7f7f7;
     margin-right: 30vw;
     margin-bottom: 8vh;
   }
@@ -553,8 +557,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     margin-top: 5vh;
-    margin-left: 7vw;
-    width: 99vw;
+    margin-left: 8vw;
+    width: 91vw;
   }
 
   .paragraph-program {
@@ -567,9 +571,10 @@ nav {
   .mobile-program {
     display: flex;
     flex-direction: column;
-    margin-right: 1vw;
-    height: 30vh;
-    width: 17.1vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    height: 33vh;
+    width: 17.5vw;
     background-color: rgba(59, 62, 69, 0.7);
   }
 
@@ -602,7 +607,7 @@ nav {
     margin-bottom: -5vh;
     max-width: 40%;
     max-height: 45%;
-    margin-left: 3.1vw;
+    margin-left: 2vw;
   }
 
   .img-models {
@@ -648,7 +653,9 @@ nav {
 
   .logos {
     display: grid;
-    grid-template-columns: repeat(5, 20%);
+    grid-template-columns: repeat(5, 4%);
+    width: 98vw;
+    margin-top: 1.5vh;
   }
 
   .img-logos {
@@ -660,7 +667,7 @@ nav {
     border: black solid 1px;
     background-color: black;
     grid-template-columns: repeat(5, 7vw);
-    height: 5vh;
+    height: 6vh;
     width: 110%;
     margin-left: -5vw;
     margin-top: -4vh;
@@ -676,11 +683,12 @@ nav {
     font-family: loto, sans-serif;
     list-style-type: none;
     color: white;
-    margin-left: 2vw;
+    margin-left: 1px;
+    margin-right: 16px;
   }
 
   .topbar-icon {
-    max-width: 3vw;
+    max-width: 60px;
     margin-left: 1.5vw;
     margin-top: -1vh;
   }
